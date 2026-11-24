@@ -945,7 +945,7 @@ try{
   var link=document.createElement('link');link.rel='manifest';link.href=murl;document.head.appendChild(link);
 }catch(e){}
 /* ---------- Init ---------- */
-window.addEventListener('load',function(){setTimeout(function(){$('splash').classList.add('hide');$('saldoCard').classList.remove('loading');},700);});
+window.addEventListener('load',function(){setTimeout(function(){$('splash').classList.add('hide');$('saldoCard').classList.remove('loading');},2500);});
 fillSettings();applyBg();runRecurring();save();render();
 setTimeout(function(){$('saldoCard').classList.remove('loading');},900);
 })();
