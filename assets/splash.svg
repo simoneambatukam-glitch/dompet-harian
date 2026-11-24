@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+<!-- Shared defs: gradient 135deg #2563EB -> #7EC8F7, wallet glyph (viewBox 0 0 24 24, stroke white w=2) -->
+<defs>
+  <linearGradient id="dhGrad" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#2563EB"/>
+    <stop offset="1" stop-color="#7EC8F7"/>
+  </linearGradient>
+  <g id="walletGlyph" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/>
+    <path d="M16 12h5v3h-5z"/>
+    <circle cx="17.5" cy="13.5" r="1"/>
+  </g>
+</defs>
+
+<rect x="0" y="0" width="2732" height="2732" fill="#ffffff"/>
+<rect x="911" y="911" width="910" height="910" rx="263" fill="url(#dhGrad)"/>
+<use href="#walletGlyph" transform="translate(1114.50 1114.50) scale(20.9583)"/>
+</svg>
